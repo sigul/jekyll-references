@@ -15,3 +15,7 @@ It's really so simple.
 7. commit and sync via github app
 
 Now your site is up and running at yourusername.github.com/repositoryname
+
+To better handle it, you can manage it on your mac by running in terminal `jekyll serve --watch` (you have to be in the folder of your jekyll). Then you'll be able to view it in your browser at localhost:4000/yoursitename.
+
+This is helpful when you are writing a post or creating a page and you want to get a look at how it will be rendered.

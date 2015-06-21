@@ -1,5 +1,6 @@
 ---
 layout: post
+date:   2015-06-21 13:03:56
 title: How to add Bootstrap to Jekyll
 ---
 Adding Bootstrap to Jekyll is a little bit complicated, mainly because of the lack of istructions on the web.
@@ -22,10 +23,11 @@ Now, you only need to follow these simple three steps:
     
 @import "bootstrap";
 {% endhighlight %}
+5. add `"/style/site.css"` to main.css file in the css folder under the // `Import partials from `sass_dir` (defaults to `_sass`)` line
 
 That's it. Look for Boostrap's variables in \_sass/bootstrap/_variables.scss.
 
-Andreas suggest not to change this variables, because it would be more difficult to update your Bootstrap, but just override them in your styles/site.scss as follow
+Andreas suggest not to change this variables, because it would be more difficult to update your Bootstrap, but just override them in your styles/site.scss as follow.
 
 {% highlight ruby %}
 ---
