@@ -11,4 +11,8 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
+
+# adding bootstrap
+sass:
+    sass_dir: _sass
