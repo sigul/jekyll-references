@@ -2,7 +2,7 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
+    border-top: 5px solid $brand-color;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
@@ -15,7 +15,7 @@
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
-    float: left;
+    
 
     &,
     &:visited {
@@ -24,7 +24,7 @@
 }
 
 .site-nav {
-    float: right;
+    
     line-height: 56px;
 
     .menu-icon {
