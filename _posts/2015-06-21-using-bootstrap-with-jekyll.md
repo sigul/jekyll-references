@@ -20,4 +20,4 @@ Now, you only need to follow these simple three steps:
 
 That's it. Look for Boostrap's variables in `_sass/bootstrap/_variables.scss`and use them in your blog.
 
-Andreas suggest not to change this variables, because it would be more difficult to update your Bootstrap, but just override them in your main.css as follow, in the `// Our variables` section.
+Andreas suggest not to change this variables, because it would be more difficult to update your Bootstrap. You can override them in your main.css as follow, in the `// Our variables` section.
