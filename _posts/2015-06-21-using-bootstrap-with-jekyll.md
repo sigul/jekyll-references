@@ -2,6 +2,7 @@
 layout: post
 date:   2015-06-21 13:03:56
 title: How to add Bootstrap to Jekyll
+category: design
 ---
 Adding Bootstrap to Jekyll is a little bit complicated, mainly because of the lack of istructions on the web.
 

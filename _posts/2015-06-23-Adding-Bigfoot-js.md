@@ -3,7 +3,7 @@ layout: post
 title: Adding Bigfoot js 
 date: 2015-06-23 07:16:14
 category: design
-tag: bigfoot, footnotes
+tag: bigfoot
 ---
 
 This is really simple. Just donwload the source from [bigfootjs.com](http://www.bigfootjs.com/) and then move the two files `bigfoot.js` and `bigfoot.min.js`in a folder called as you want[^1].

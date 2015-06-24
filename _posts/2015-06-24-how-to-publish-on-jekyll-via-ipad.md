@@ -2,6 +2,7 @@
 layout: post
 title: how to publish to Jekyll via iPad or iPhone
 date: 2015-06-24 12:00:30
+category: mobile
 --- 
 
 All you need to publish on your Jekyll blog with your iDevice is to use Editorial app, the best app for bloggers together with Ulysses [^1]. 

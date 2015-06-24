@@ -2,6 +2,7 @@
 layout: post
 title: How to Create a Blog with Jekyll
 date: 2015-06-21 09:03:56
+category: start
 ---
 This is a post to remember me hot to install jekyll. 
 
