@@ -1,16 +1,7 @@
 ---
 layout: default
+permalink: /journal/
 ---
-
-<div class="home">
-
-  <div class="text-center">
-  <h1>What Is This?</h1>
-  <p class="page-heading">A Brief Guide for Who Wants to Start a Blog with Jekyll</p>
-  <p class="page-heading"><em>Written by a beginner for other beginners</em></p>
-  </div>
-
-  <h2 class="text-center">Posts</h2>
 
   <ul class="post-list">
     {% for post in site.posts %}
