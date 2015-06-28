@@ -8,6 +8,19 @@ layout: default
     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
 
+  {% if page.minutes %}
+  {% assign minutes = page.minutes %}
+{% else %}
+  {% assign minutes = content | number_of_words | divided_by: 180 %}
+  {% if minutes == 0 %}{% assign minutes = 1 %}{% endif %}
+{% endif %}
+
+{% if minutes == 1 %}
+ <span class="post-meta small">{{ minutes }} minute read</span>
+ {% else %}
+ <span class="post-meta small">{{ minutes }} minutes read</span>
+ {% endif %}
+
   <article class="post-content">
     {{ content }}
   </article>
